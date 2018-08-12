@@ -1,0 +1,41 @@
+#map{
+    min-height: 500px;
+}
+.get_cities>.field{
+    display: inline-block;
+    margin-right: 10px;
+}
+.get_cities>.first_field{
+    position: relative;
+}
+.names_option{
+    display: none;
+    position: absolute;
+    min-width: 164px;
+    width: auto;
+    max-width: 300px;
+    min-height: 164px;
+    max-height: 200px;
+    overflow-y: scroll;
+    right: 0;
+    border: 1px solid rgb(238, 238, 238);
+    background: #FFFFFF;
+    padding: 10px 5px;
+    z-index: 10000;
+}
+.names_option>li{
+    padding: 5px 0;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    text-align: center;
+    cursor: pointer;
+    list-style: none;
+}
+.names_option>li:hover{
+    color: #373737;
+    font-weight: bold;
+}
+.names_option>img{
+    position: absolute;
+    left: calc(50% - 12px);
+    top: calc(50% - 12px);
+}
